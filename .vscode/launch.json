@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Executar com ts-node",
+        "runtimeArgs": ["-r", "ts-node/register"],
+        "args": ["${workspaceFolder}/app.ts"], // Atualize para o caminho correto do seu arquivo .ts
+        "sourceMaps": true,
+        "cwd": "${workspaceFolder}"
+      }
+    ]
+  }
+  
